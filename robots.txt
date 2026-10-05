@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace __SITE_URL__ with the live domain after deployment.
+Sitemap: __SITE_URL__/sitemap.xml

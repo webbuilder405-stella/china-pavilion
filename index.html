@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#12100e" />
+  <meta name="description" content="China Pavilion Chinese Restaurant in Irving, Texas. Browse Chinese favorites, appetizers, dumplings, wings, BBQ, hours, and directions." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="China Pavilion Chinese Restaurant" />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="China Pavilion | Chinese Restaurant in Irving, Texas" />
+  <meta property="og:description" content="Browse the China Pavilion menu, hours, location, and restaurant information in Irving, Texas." />
+  <meta property="og:site_name" content="China Pavilion" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="China Pavilion | Irving, Texas" />
+  <meta name="twitter:description" content="Chinese favorites, appetizers, dumplings, wings, BBQ, hours, and directions." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <title>China Pavilion | Chinese Restaurant in Irving, Texas</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "China Pavilion Chinese Restaurant",
+    "telephone": "+1-972-258-1111",
+    "servesCuisine": ["Chinese"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3017 N Belt Line Rd",
+      "addressLocality": "Irving",
+      "addressRegion": "TX",
+      "postalCode": "75062",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday"],"opens":"11:00","closes":"22:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday","Sunday"],"opens":"11:30","closes":"22:00"}
+    ],
+    "url": "__SITE_URL__"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="cursorDot" class="cursor-dot"></div>
+  <div id="cursorRing" class="cursor-ring"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <div class="preloader" id="preloader">
+    <div class="preloader-mark">中</div>
+    <div class="preloader-name">CHINA PAVILION</div>
+    <div class="preloader-line"><span></span></div>
+  </div>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <div class="announcement">
+    <div class="container announcement-inner">
+      <span>IRVING, TEXAS</span>
+      <span class="announcement-center">Chinese favorites • Appetizers • Takeout</span>
+      <a href="tel:+19722581111">(972) 258-1111</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand magnetic">
+        <span class="brand-mark">中</span>
+        <span class="brand-copy"><b>China Pavilion</b><small>Chinese Restaurant</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#story">Experience</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#hours">Hours</a>
+        <a href="#location">Location</a>
+      </nav>
+
+      <div class="nav-tools">
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">◐</button>
+        <button class="cart-btn" id="cartOpenBtn"><span>Order</span><em id="cartCount">0</em></button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu"><i></i><i></i><i></i></button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home">Home</a><a href="#story">Experience</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#hours">Hours</a><a href="#location">Location</a>
+      <a class="mobile-call" href="tel:+19722581111">Call Restaurant</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <div class="hero-noise"></div>
+      <div class="hero-shape hero-shape-a"></div>
+      <div class="hero-shape hero-shape-b"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal-up">
+          <div class="status-pill"><span id="statusDot"></span><span id="statusText">Checking today's hours...</span></div>
+          <p class="eyebrow">AUTHENTIC FLAVOR • IRVING, TEXAS</p>
+          <h1>Flavor worth <i>coming back for.</i></h1>
+          <p class="hero-lead">A warm, modern home for Chinese favorites, crispy appetizers, dumplings, wings, and shareable plates.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-red magnetic" href="#menu">Explore the menu <span>↘</span></a>
+            <button class="btn btn-ghost magnetic" id="contactOpenBtn">Contact restaurant <span>↗</span></button>
+          </div>
+          <div class="hero-meta">
+            <div><small>FIND US</small><strong>3017 N Belt Line Rd<br>Irving, TX 75062</strong></div>
+            <div><small>PHONE</small><a href="tel:+19722581111">(972) 258-1111</a></div>
+          </div>
+        </div>
+
+        <div class="hero-stage" aria-hidden="true">
+          <div class="hero-orbit orbit-1"></div><div class="hero-orbit orbit-2"></div>
+          <div class="hero-plate">
+            <div class="plate-rim"><span>中</span></div>
+            <div class="plate-shadow"></div>
+          </div>
+          <div class="hero-tag tag-one"><b>6 pcs</b><small>CRISPY WINGS</small></div>
+          <div class="hero-tag tag-two"><b>8 pcs</b><small>HAND-FOLDED DUMPLINGS</small></div>
+          <div class="hero-stamp">OPEN<br><span>6 DAYS<br>EXCEPT MON</span></div>
+        </div>
+      </div>
+      <div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="marquee-section" aria-label="Highlights">
+      <div class="marquee-track">
+        <span>CHINESE FAVORITES</span><b>✦</b><span>FRESHLY PREPARED</span><b>✦</b><span>IRVING, TEXAS</span><b>✦</b><span>TAKEOUT READY</span><b>✦</b><span>CHINESE FAVORITES</span><b>✦</b><span>FRESHLY PREPARED</span><b>✦</b><span>IRVING, TEXAS</span><b>✦</b><span>TAKEOUT READY</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="story" class="story section-pad">
+      <div class="container story-grid">
+        <div class="story-visual reveal-left">
+          <div class="story-card-main"><div class="story-card-inner">中</div></div>
+          <div class="story-note"><span>01</span><strong>COMFORT<br>ON THE TABLE</strong></div>
+          <div class="story-circle"></div>
+        </div>
+        <div class="story-copy reveal-right">
+          <p class="eyebrow">THE EXPERIENCE</p>
+          <h2>Classic dishes.<br><i>Modern presentation.</i></h2>
+          <p>China Pavilion brings together familiar Chinese restaurant favorites in one simple, welcoming destination in Irving. Whether you are grabbing a quick appetizer or building a table full of shareable plates, the menu is designed to make ordering easy.</p>
+          <div class="feature-points">
+            <div><span>01</span><div><b>Easy to explore</b><small>Search, filter and browse the menu in seconds.</small></div></div>
+            <div><span>02</span><div><b>Built for sharing</b><small>Plates and appetizers made for the table.</small></div></div>
+            <div><span>03</span><div><b>Irving local</b><small>Conveniently located on N Belt Line Rd.</small></div></div>
+          </div>
+          <a href="#menu" class="inline-link">Discover the menu <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat"><strong data-count="15">0</strong><span>MENU ITEMS<br>FEATURED</span></div>
+        <div class="stat"><strong>7</strong><span>DAYS<br>OF THE WEEK</span></div>
+        <div class="stat"><strong>10PM</strong><span>REGULAR<br>CLOSING TIME</span></div>
+        <div class="stat"><strong>★</strong><span>TABLE-READY<br>FAVORITES</span></div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section section-pad">
+      <div class="container">
+        <div class="section-heading-wide">
+          <div><p class="eyebrow">EXPLORE THE MENU</p><h2>Choose your <i>favorites.</i></h2></div>
+          <p>Search dishes, filter by category, open an item for details, and build a sample order before calling the restaurant.</p>
+        </div>
+
+        <div class="menu-toolbar">
+          <label class="search-input"><span>⌕</span><input id="menuSearch" type="search" placeholder="Search dishes..." autocomplete="off" /></label>
+          <div class="filter-row" id="filterRow">
+            <button class="filter-chip active" data-filter="all">All</button>
+            <button class="filter-chip" data-filter="wings">Wings</button>
+            <button class="filter-chip" data-filter="dumplings">Dumplings</button>
+            <button class="filter-chip" data-filter="seafood">Seafood</button>
+            <button class="filter-chip" data-filter="bbq">BBQ</button>
+            <button class="filter-chip" data-filter="appetizer">Appetizers</button>
+          </div>
+        </div>
+
+        <div class="menu-layout">
+          <div class="menu-results-head"><span id="resultCount">0 dishes</span><button id="clearFilters">Clear filters</button></div>
+          <div class="menu-grid" id="menuGrid"></div>
+          <div id="emptyMenu" class="empty-state"><div>🥢</div><h3>Nothing matched.</h3><p>Try another search or reset the filters.</p><button class="btn btn-dark" id="resetMenuBtn">Reset menu</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spotlight-section">
+      <div class="container spotlight-grid">
+        <div class="spotlight-copy reveal-up">
+          <p class="eyebrow">HOUSE FAVORITE</p>
+          <h2>The Appetizer <i>Platter.</i></h2>
+          <p>Two egg rolls, two crab rangoon, two shrimp toasts, two fried shrimp, two paper-wrapped chicken, and two BBQ ribs — a table-friendly sampler for when one choice isn't enough.</p>
+          <div class="spotlight-price"><b>$12.95</b><span>PER PLATTER</span></div>
+          <button class="btn btn-red" id="spotlightAdd">Add platter to order <span>+</span></button>
+        </div>
+        <div class="spotlight-art reveal-right">
+          <div class="dish-stack dish-back"></div><div class="dish-stack dish-middle"></div><div class="dish-stack dish-front">12.95</div>
+          <div class="floating-caption"><span>SHARING SIZE</span><b>For the whole table.</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section section-pad">
+      <div class="container">
+        <div class="section-heading-center"><p class="eyebrow">A LOOK AROUND</p><h2>Food, table, <i>atmosphere.</i></h2><p>A visual section ready for real restaurant photography when the site is handed to the owner.</p></div>
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-card g1" data-title="Crispy Favorites"><div><span>01</span><b>CRISPY FAVORITES</b></div></button>
+          <button class="gallery-card g2" data-title="Dumplings"><div><span>02</span><b>DUMPLINGS</b></div></button>
+          <button class="gallery-card g3" data-title="Shareable Plates"><div><span>03</span><b>SHAREABLE PLATES</b></div></button>
+          <button class="gallery-card g4" data-title="BBQ Favorites"><div><span>04</span><b>BBQ FAVORITES</b></div></button>
+          <button class="gallery-card g5" data-title="The Table"><div><span>05</span><b>THE TABLE</b></div></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section section-pad">
+      <div class="container reviews-grid">
+        <div class="review-heading"><p class="eyebrow">GUEST NOTES</p><h2>A place to<br><i>come back to.</i></h2><div class="review-score"><strong>★★★★★</strong><span>Featured restaurant experience</span></div></div>
+        <div class="review-slider">
+          <div class="review-window"><div class="review-track" id="reviewTrack"></div></div>
+          <div class="review-controls"><button id="reviewPrev">←</button><div id="reviewDots"></div><button id="reviewNext">→</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hours" class="hours-section section-pad">
+      <div class="container hours-grid">
+        <div class="hours-copy"><p class="eyebrow">PLAN YOUR VISIT</p><h2>Know <i>when.</i></h2><p>The schedule below is displayed directly from the restaurant hours you provided. Today's row is automatically highlighted.</p><div class="live-hours"><span id="liveDot"></span><b id="liveHoursStatus">Checking...</b><small id="liveHoursNote">Irving local time</small></div></div>
+        <div class="hours-card"><div class="hours-card-top"><span>THIS WEEK</span><strong id="currentDayLabel">Today</strong></div><div class="hours-list" id="hoursList"></div></div>
+      </div>
+    </section>
+
+    <section class="reservation-section">
+      <div class="container reservation-inner">
+        <div><p class="eyebrow">PLAN AHEAD</p><h2>Need to <i>reach us?</i></h2><p>Start a reservation request below. The form is frontend-only until a real booking system is connected.</p></div>
+        <button class="btn btn-light magnetic" id="reserveOpenBtn">Open reservation form <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="faq-section section-pad">
+      <div class="container faq-grid">
+        <div><p class="eyebrow">QUESTIONS</p><h2>Good to <i>know.</i></h2><p class="faq-intro">Helpful answers can live here for customers before they visit or call.</p></div>
+        <div class="faq-list" id="faqList">
+          <article class="faq-item"><button>What are the restaurant hours?<span>+</span></button><div><p>Sunday 11:30 AM–10 PM, Monday closed, Tuesday–Friday 11 AM–10 PM, Saturday 11:30 AM–10 PM.</p></div></article>
+          <article class="faq-item"><button>Where is China Pavilion located?<span>+</span></button><div><p>3017 N Belt Line Rd, Irving, TX 75062.</p></div></article>
+          <article class="faq-item"><button>Can I call to place an order?<span>+</span></button><div><p>Yes. The website includes a direct call button for the restaurant at (972) 258-1111.</p></div></article>
+          <article class="faq-item"><button>Can the menu be changed later?<span>+</span></button><div><p>Yes. In this version, menu data is centralized in JavaScript so dishes and prices are easy to update.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="location-section section-pad">
+      <div class="container location-grid">
+        <div class="location-copy"><p class="eyebrow">COME FIND US</p><h2>Right here<br>in <i>Irving.</i></h2><p>3017 N Belt Line Rd<br>Irving, TX 75062</p><div class="location-actions"><a class="btn btn-red" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=3017+N+Belt+Line+Rd+Irving+TX+75062">Get directions <span>↗</span></a><a class="btn btn-outline" href="tel:+19722581111">Call restaurant</a></div></div>
+        <div class="map-art"><div class="map-road road-a"></div><div class="map-road road-b"></div><div class="map-road road-c"></div><div class="map-road road-d"></div><div class="map-pin"><span>中</span><i></i></div><div class="map-label"><b>China Pavilion</b><span>3017 N Belt Line Rd<br>Irving, TX 75062</span></div></div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container newsletter-inner"><div><p class="eyebrow">STAY CONNECTED</p><h2>Get menu updates.</h2></div><form id="newsletterForm"><input id="emailInput" type="email" placeholder="Your email address" required><button type="submit">Join <span>→</span></button></form></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-main"><a href="#home" class="brand"><span class="brand-mark">中</span><span class="brand-copy"><b>China Pavilion</b><small>Chinese Restaurant</small></span></a><p>Chinese favorites in Irving, Texas.</p></div>
+      <div><h4>Explore</h4><a href="#story">Experience</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#hours">Hours</a></div>
+      <div><h4>Visit</h4><a href="#location">3017 N Belt Line Rd</a><a href="tel:+19722581111">(972) 258-1111</a><span>Irving, TX 75062</span></div>
+      <div><h4>Online</h4><a href="#menu">Order preview</a><a href="#location">Directions</a><button id="footerContactBtn">Contact form</button></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> China Pavilion</span><span>Built as a premium frontend concept</span></div>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Order preview">
+    <div class="drawer-head"><div><small>YOUR ORDER</small><h3>Order preview</h3></div><button id="cartCloseBtn">×</button></div>
+    <div class="drawer-body" id="cartBody"></div>
+    <div class="drawer-foot"><div class="drawer-total"><span>Estimated total</span><strong id="cartTotal">$0.00</strong></div><a href="tel:+19722581111" class="drawer-call">Call to place order <span>↗</span></a><small>Online payment is not connected in this frontend demo.</small></div>
+  </aside>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <div class="modal-backdrop" id="itemModal"><div class="modal item-modal"><button class="modal-x" data-close="itemModal">×</button><div id="itemModalContent"></div></div></div>
+  <div class="modal-backdrop" id="reservationModal"><div class="modal reservation-modal"><button class="modal-x" data-close="reservationModal">×</button><p class="eyebrow">CONTACT / RESERVATION</p><h2>Let’s get you <i>set.</i></h2><form id="reservationForm" class="form-grid"><label>Full name<input required name="name" placeholder="Your name"></label><label>Phone<input required name="phone" placeholder="(972) 258-1111"></label><label>Date<input required name="date" type="date"></label><label>Time<input required name="time" type="time"></label><label class="full">Guests<select name="guests"><option>2</option><option>3</option><option>4</option><option>5</option><option>6+</option></select></label><label class="full">Message<textarea name="message" placeholder="Anything you'd like the restaurant to know?"></textarea></label><button class="btn btn-red full" type="submit">Submit request <span>→</span></button><small class="form-note">Frontend-only demo. Connect this form to a backend or booking provider for live reservations.</small></form></div></div>
+
+  <div class="modal-backdrop" id="contactModal"><div class="modal contact-modal"><button class="modal-x" data-close="contactModal">×</button><p class="eyebrow">CHINA PAVILION</p><h2>Have a <i>question?</i></h2><p>Call the restaurant directly for ordering, menu questions, hours, or other details.</p><a class="btn btn-red full" href="tel:+19722581111">(972) 258-1111 <span>↗</span></a><a class="btn btn-outline full" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=3017+N+Belt+Line+Rd+Irving+TX+75062">Open in Maps</a></div></div>
+
+  <div class="lightbox" id="lightbox"><button id="lightboxClose">×</button><div class="lightbox-art" id="lightboxArt"></div><div class="lightbox-caption" id="lightboxCaption"></div></div>
+  <div class="toast" id="toast"></div>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

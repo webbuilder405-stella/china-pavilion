@@ -1,0 +1,4 @@
+# Friendly section URLs
+/menu /#menu 302
+/hours /#hours 302
+/location /#location 302
